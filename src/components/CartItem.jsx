@@ -52,7 +52,7 @@ const CartItem = ({ item, onRemoveItem, onIncreaseQuantity, onDecreaseQuantity }
           <p className={styles.meta}>
             Size: <span className={styles.size}>{item.size}</span>&nbsp;&nbsp;&nbsp;&nbsp;
             <span className={styles.swatch} style={swatchStyles} />&nbsp;{item.color.name}&nbsp;
-            &pound;{item.price}
+            &#8377;{item.price}
           </p>
         </Flag>
       </div>

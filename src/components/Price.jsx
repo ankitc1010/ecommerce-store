@@ -18,15 +18,15 @@ const Price = ({ price, reduction, className }: Props) => {
   if (reduction) {
     return (
       <div className={className}>
-        <span className={styles.reduced}>&pound;{reducedAmount}</span>
-        <span className={styles.original}>&pound;{price}</span>
+        <span className={styles.reduced}>&#8377;{reducedAmount}</span>
+        <span className={styles.original}>&#8377;{price}</span>
       </div>
     )
   }
 
   return (
     <div className={className}>
-      <span className={styles.amount}>&pound;{price}</span>
+      <span className={styles.amount}>&#8377;{price}</span>
     </div>
   )
 }
